@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4E70E422333640000CB6A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E412333640000CB6A5A /* AppDelegate.swift */; };
+		D4E70E442333640000CB6A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E432333640000CB6A5A /* ViewController.swift */; };
+		D4E70E472333640000CB6A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E70E452333640000CB6A5A /* Main.storyboard */; };
+		D4E70E492333640100CB6A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E70E482333640100CB6A5A /* Assets.xcassets */; };
+		D4E70E4C2333640100CB6A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E70E4A2333640100CB6A5A /* LaunchScreen.storyboard */; };
+		D4E70E572333640100CB6A5A /* Stress_ScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E562333640100CB6A5A /* Stress_ScannerTests.swift */; };
+		D4E70E622333640100CB6A5A /* Stress_ScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E612333640100CB6A5A /* Stress_ScannerUITests.swift */; };
+		D4E70E672333640100CB6A5A /* Stress Scanner WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D4E70E662333640100CB6A5A /* Stress Scanner WatchKit App.app */; };
+		D4E70E6D2333640100CB6A5A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E70E6B2333640100CB6A5A /* Interface.storyboard */; };
+		D4E70E6F2333640200CB6A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E70E6E2333640200CB6A5A /* Assets.xcassets */; };
+		D4E70E762333640200CB6A5A /* Stress Scanner WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D4E70E752333640200CB6A5A /* Stress Scanner WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D4E70E7B2333640200CB6A5A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E7A2333640200CB6A5A /* InterfaceController.swift */; };
+		D4E70E7D2333640200CB6A5A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E7C2333640200CB6A5A /* ExtensionDelegate.swift */; };
+		D4E70E7F2333640200CB6A5A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E7E2333640200CB6A5A /* NotificationController.swift */; };
+		D4E70E812333640300CB6A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E70E802333640300CB6A5A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4E70E532333640100CB6A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E70E362333640000CB6A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E70E3D2333640000CB6A5A;
+			remoteInfo = "Stress Scanner";
+		};
+		D4E70E5E2333640100CB6A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E70E362333640000CB6A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E70E3D2333640000CB6A5A;
+			remoteInfo = "Stress Scanner";
+		};
+		D4E70E682333640100CB6A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E70E362333640000CB6A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E70E652333640100CB6A5A;
+			remoteInfo = "Stress Scanner WatchKit App";
+		};
+		D4E70E772333640200CB6A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E70E362333640000CB6A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E70E742333640200CB6A5A;
+			remoteInfo = "Stress Scanner WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D4E70E892333640300CB6A5A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D4E70E762333640200CB6A5A /* Stress Scanner WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E70E8D2333640300CB6A5A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D4E70E672333640100CB6A5A /* Stress Scanner WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D4E70E3E2333640000CB6A5A /* Stress Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stress Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E70E412333640000CB6A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4E70E432333640000CB6A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4E70E462333640000CB6A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4E70E482333640100CB6A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4E70E4B2333640100CB6A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4E70E4D2333640100CB6A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E70E522333640100CB6A5A /* Stress ScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stress ScannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E70E562333640100CB6A5A /* Stress_ScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress_ScannerTests.swift; sourceTree = "<group>"; };
+		D4E70E582333640100CB6A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E70E5D2333640100CB6A5A /* Stress ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stress ScannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E70E612333640100CB6A5A /* Stress_ScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress_ScannerUITests.swift; sourceTree = "<group>"; };
+		D4E70E632333640100CB6A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E70E662333640100CB6A5A /* Stress Scanner WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stress Scanner WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E70E6C2333640100CB6A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D4E70E6E2333640200CB6A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4E70E702333640200CB6A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E70E752333640200CB6A5A /* Stress Scanner WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Stress Scanner WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E70E7A2333640200CB6A5A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D4E70E7C2333640200CB6A5A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D4E70E7E2333640200CB6A5A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D4E70E802333640300CB6A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4E70E822333640300CB6A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E70E832333640300CB6A5A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4E70E3B2333640000CB6A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E70E4F2333640100CB6A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E70E5A2333640100CB6A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E70E722333640200CB6A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4E70E352333640000CB6A5A = {
+			isa = PBXGroup;
+			children = (
+				D4E70E402333640000CB6A5A /* Stress Scanner */,
+				D4E70E552333640100CB6A5A /* Stress ScannerTests */,
+				D4E70E602333640100CB6A5A /* Stress ScannerUITests */,
+				D4E70E6A2333640100CB6A5A /* Stress Scanner WatchKit App */,
+				D4E70E792333640200CB6A5A /* Stress Scanner WatchKit Extension */,
+				D4E70E3F2333640000CB6A5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E70E3F2333640000CB6A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4E70E3E2333640000CB6A5A /* Stress Scanner.app */,
+				D4E70E522333640100CB6A5A /* Stress ScannerTests.xctest */,
+				D4E70E5D2333640100CB6A5A /* Stress ScannerUITests.xctest */,
+				D4E70E662333640100CB6A5A /* Stress Scanner WatchKit App.app */,
+				D4E70E752333640200CB6A5A /* Stress Scanner WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E70E402333640000CB6A5A /* Stress Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				D4E70E412333640000CB6A5A /* AppDelegate.swift */,
+				D4E70E432333640000CB6A5A /* ViewController.swift */,
+				D4E70E452333640000CB6A5A /* Main.storyboard */,
+				D4E70E482333640100CB6A5A /* Assets.xcassets */,
+				D4E70E4A2333640100CB6A5A /* LaunchScreen.storyboard */,
+				D4E70E4D2333640100CB6A5A /* Info.plist */,
+			);
+			path = "Stress Scanner";
+			sourceTree = "<group>";
+		};
+		D4E70E552333640100CB6A5A /* Stress ScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E70E562333640100CB6A5A /* Stress_ScannerTests.swift */,
+				D4E70E582333640100CB6A5A /* Info.plist */,
+			);
+			path = "Stress ScannerTests";
+			sourceTree = "<group>";
+		};
+		D4E70E602333640100CB6A5A /* Stress ScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E70E612333640100CB6A5A /* Stress_ScannerUITests.swift */,
+				D4E70E632333640100CB6A5A /* Info.plist */,
+			);
+			path = "Stress ScannerUITests";
+			sourceTree = "<group>";
+		};
+		D4E70E6A2333640100CB6A5A /* Stress Scanner WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D4E70E6B2333640100CB6A5A /* Interface.storyboard */,
+				D4E70E6E2333640200CB6A5A /* Assets.xcassets */,
+				D4E70E702333640200CB6A5A /* Info.plist */,
+			);
+			path = "Stress Scanner WatchKit App";
+			sourceTree = "<group>";
+		};
+		D4E70E792333640200CB6A5A /* Stress Scanner WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D4E70E7A2333640200CB6A5A /* InterfaceController.swift */,
+				D4E70E7C2333640200CB6A5A /* ExtensionDelegate.swift */,
+				D4E70E7E2333640200CB6A5A /* NotificationController.swift */,
+				D4E70E802333640300CB6A5A /* Assets.xcassets */,
+				D4E70E822333640300CB6A5A /* Info.plist */,
+				D4E70E832333640300CB6A5A /* PushNotificationPayload.apns */,
+			);
+			path = "Stress Scanner WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4E70E3D2333640000CB6A5A /* Stress Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E70E8E2333640300CB6A5A /* Build configuration list for PBXNativeTarget "Stress Scanner" */;
+			buildPhases = (
+				D4E70E3A2333640000CB6A5A /* Sources */,
+				D4E70E3B2333640000CB6A5A /* Frameworks */,
+				D4E70E3C2333640000CB6A5A /* Resources */,
+				D4E70E8D2333640300CB6A5A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E70E692333640100CB6A5A /* PBXTargetDependency */,
+			);
+			name = "Stress Scanner";
+			productName = "Stress Scanner";
+			productReference = D4E70E3E2333640000CB6A5A /* Stress Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4E70E512333640100CB6A5A /* Stress ScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E70E912333640300CB6A5A /* Build configuration list for PBXNativeTarget "Stress ScannerTests" */;
+			buildPhases = (
+				D4E70E4E2333640100CB6A5A /* Sources */,
+				D4E70E4F2333640100CB6A5A /* Frameworks */,
+				D4E70E502333640100CB6A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E70E542333640100CB6A5A /* PBXTargetDependency */,
+			);
+			name = "Stress ScannerTests";
+			productName = "Stress ScannerTests";
+			productReference = D4E70E522333640100CB6A5A /* Stress ScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4E70E5C2333640100CB6A5A /* Stress ScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E70E942333640300CB6A5A /* Build configuration list for PBXNativeTarget "Stress ScannerUITests" */;
+			buildPhases = (
+				D4E70E592333640100CB6A5A /* Sources */,
+				D4E70E5A2333640100CB6A5A /* Frameworks */,
+				D4E70E5B2333640100CB6A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E70E5F2333640100CB6A5A /* PBXTargetDependency */,
+			);
+			name = "Stress ScannerUITests";
+			productName = "Stress ScannerUITests";
+			productReference = D4E70E5D2333640100CB6A5A /* Stress ScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D4E70E652333640100CB6A5A /* Stress Scanner WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E70E8A2333640300CB6A5A /* Build configuration list for PBXNativeTarget "Stress Scanner WatchKit App" */;
+			buildPhases = (
+				D4E70E642333640100CB6A5A /* Resources */,
+				D4E70E892333640300CB6A5A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E70E782333640200CB6A5A /* PBXTargetDependency */,
+			);
+			name = "Stress Scanner WatchKit App";
+			productName = "Stress Scanner WatchKit App";
+			productReference = D4E70E662333640100CB6A5A /* Stress Scanner WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D4E70E742333640200CB6A5A /* Stress Scanner WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E70E862333640300CB6A5A /* Build configuration list for PBXNativeTarget "Stress Scanner WatchKit Extension" */;
+			buildPhases = (
+				D4E70E712333640200CB6A5A /* Sources */,
+				D4E70E722333640200CB6A5A /* Frameworks */,
+				D4E70E732333640200CB6A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stress Scanner WatchKit Extension";
+			productName = "Stress Scanner WatchKit Extension";
+			productReference = D4E70E752333640200CB6A5A /* Stress Scanner WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4E70E362333640000CB6A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Fauzan Achmad";
+				TargetAttributes = {
+					D4E70E3D2333640000CB6A5A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D4E70E512333640100CB6A5A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D4E70E3D2333640000CB6A5A;
+					};
+					D4E70E5C2333640100CB6A5A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D4E70E3D2333640000CB6A5A;
+					};
+					D4E70E652333640100CB6A5A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D4E70E742333640200CB6A5A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = D4E70E392333640000CB6A5A /* Build configuration list for PBXProject "Stress Scanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4E70E352333640000CB6A5A;
+			productRefGroup = D4E70E3F2333640000CB6A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4E70E3D2333640000CB6A5A /* Stress Scanner */,
+				D4E70E512333640100CB6A5A /* Stress ScannerTests */,
+				D4E70E5C2333640100CB6A5A /* Stress ScannerUITests */,
+				D4E70E652333640100CB6A5A /* Stress Scanner WatchKit App */,
+				D4E70E742333640200CB6A5A /* Stress Scanner WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4E70E3C2333640000CB6A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E70E4C2333640100CB6A5A /* LaunchScreen.storyboard in Resources */,
+				D4E70E492333640100CB6A5A /* Assets.xcassets in Resources */,
+				D4E70E472333640000CB6A5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E70E502333640100CB6A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E70E5B2333640100CB6A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E70E642333640100CB6A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E70E6F2333640200CB6A5A /* Assets.xcassets in Resources */,
+				D4E70E6D2333640100CB6A5A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E70E732333640200CB6A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E70E812333640300CB6A5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4E70E3A2333640000CB6A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E70E442333640000CB6A5A /* ViewController.swift in Sources */,
+				D4E70E422333640000CB6A5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E70E4E2333640100CB6A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E70E572333640100CB6A5A /* Stress_ScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E70E592333640100CB6A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E70E622333640100CB6A5A /* Stress_ScannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E70E712333640200CB6A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E70E7F2333640200CB6A5A /* NotificationController.swift in Sources */,
+				D4E70E7D2333640200CB6A5A /* ExtensionDelegate.swift in Sources */,
+				D4E70E7B2333640200CB6A5A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4E70E542333640100CB6A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E70E3D2333640000CB6A5A /* Stress Scanner */;
+			targetProxy = D4E70E532333640100CB6A5A /* PBXContainerItemProxy */;
+		};
+		D4E70E5F2333640100CB6A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E70E3D2333640000CB6A5A /* Stress Scanner */;
+			targetProxy = D4E70E5E2333640100CB6A5A /* PBXContainerItemProxy */;
+		};
+		D4E70E692333640100CB6A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E70E652333640100CB6A5A /* Stress Scanner WatchKit App */;
+			targetProxy = D4E70E682333640100CB6A5A /* PBXContainerItemProxy */;
+		};
+		D4E70E782333640200CB6A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E70E742333640200CB6A5A /* Stress Scanner WatchKit Extension */;
+			targetProxy = D4E70E772333640200CB6A5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4E70E452333640000CB6A5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E70E462333640000CB6A5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4E70E4A2333640100CB6A5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E70E4B2333640100CB6A5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D4E70E6B2333640100CB6A5A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E70E6C2333640100CB6A5A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4E70E842333640300CB6A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4E70E852333640300CB6A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4E70E872333640300CB6A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				INFOPLIST_FILE = "Stress Scanner WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-Scanner.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		D4E70E882333640300CB6A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				INFOPLIST_FILE = "Stress Scanner WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-Scanner.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		D4E70E8B2333640300CB6A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				IBSC_MODULE = Stress_Scanner_WatchKit_Extension;
+				INFOPLIST_FILE = "Stress Scanner WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-Scanner.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		D4E70E8C2333640300CB6A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				IBSC_MODULE = Stress_Scanner_WatchKit_Extension;
+				INFOPLIST_FILE = "Stress Scanner WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-Scanner.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		D4E70E8F2333640300CB6A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				INFOPLIST_FILE = "Stress Scanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4E70E902333640300CB6A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				INFOPLIST_FILE = "Stress Scanner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4E70E922333640300CB6A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				INFOPLIST_FILE = "Stress ScannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stress Scanner.app/Stress Scanner";
+			};
+			name = Debug;
+		};
+		D4E70E932333640300CB6A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				INFOPLIST_FILE = "Stress ScannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stress Scanner.app/Stress Scanner";
+			};
+			name = Release;
+		};
+		D4E70E952333640300CB6A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				INFOPLIST_FILE = "Stress ScannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stress Scanner";
+			};
+			name = Debug;
+		};
+		D4E70E962333640300CB6A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				INFOPLIST_FILE = "Stress ScannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stress Scanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4E70E392333640000CB6A5A /* Build configuration list for PBXProject "Stress Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E70E842333640300CB6A5A /* Debug */,
+				D4E70E852333640300CB6A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E70E862333640300CB6A5A /* Build configuration list for PBXNativeTarget "Stress Scanner WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E70E872333640300CB6A5A /* Debug */,
+				D4E70E882333640300CB6A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E70E8A2333640300CB6A5A /* Build configuration list for PBXNativeTarget "Stress Scanner WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E70E8B2333640300CB6A5A /* Debug */,
+				D4E70E8C2333640300CB6A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E70E8E2333640300CB6A5A /* Build configuration list for PBXNativeTarget "Stress Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E70E8F2333640300CB6A5A /* Debug */,
+				D4E70E902333640300CB6A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E70E912333640300CB6A5A /* Build configuration list for PBXNativeTarget "Stress ScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E70E922333640300CB6A5A /* Debug */,
+				D4E70E932333640300CB6A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E70E942333640300CB6A5A /* Build configuration list for PBXNativeTarget "Stress ScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E70E952333640300CB6A5A /* Debug */,
+				D4E70E962333640300CB6A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4E70E362333640000CB6A5A /* Project object */;
+}
