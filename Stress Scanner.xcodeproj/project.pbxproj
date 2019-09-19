@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D48F08552333A8FF00ECB493 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F08542333A8FF00ECB493 /* AuthenticationViewController.swift */; };
+		D49976D62333B96500DBD8B3 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49976D52333B96500DBD8B3 /* IntentHandler.swift */; };
+		D49976DE2333B96600DBD8B3 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49976DD2333B96600DBD8B3 /* IntentsUI.framework */; };
+		D49976E12333B96600DBD8B3 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49976E02333B96600DBD8B3 /* IntentViewController.swift */; };
+		D49976E42333B96600DBD8B3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49976E22333B96600DBD8B3 /* MainInterface.storyboard */; };
+		D49976E82333B96600DBD8B3 /* StressScanSiriUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D49976DC2333B96500DBD8B3 /* StressScanSiriUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D49976EB2333B96600DBD8B3 /* StressScanSiri.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D49976D32333B96500DBD8B3 /* StressScanSiri.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D4E70E422333640000CB6A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E412333640000CB6A5A /* AppDelegate.swift */; };
 		D4E70E442333640000CB6A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E432333640000CB6A5A /* ViewController.swift */; };
 		D4E70E472333640000CB6A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E70E452333640000CB6A5A /* Main.storyboard */; };
@@ -22,9 +29,26 @@
 		D4E70E7D2333640200CB6A5A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E7C2333640200CB6A5A /* ExtensionDelegate.swift */; };
 		D4E70E7F2333640200CB6A5A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E7E2333640200CB6A5A /* NotificationController.swift */; };
 		D4E70E812333640300CB6A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E70E802333640300CB6A5A /* Assets.xcassets */; };
+		D4E70E9C2333643400CB6A5A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E70E9B2333643400CB6A5A /* HealthKit.framework */; };
+		D4E70E9F23336F6800CB6A5A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E9E23336F6800CB6A5A /* CustomButton.swift */; };
+		D4E70EA223337E4C00CB6A5A /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70EA123337E4C00CB6A5A /* LogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D49976E62333B96600DBD8B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E70E362333640000CB6A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49976DB2333B96500DBD8B3;
+			remoteInfo = StressScanSiriUI;
+		};
+		D49976E92333B96600DBD8B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E70E362333640000CB6A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49976D22333B96500DBD8B3;
+			remoteInfo = StressScanSiri;
+		};
 		D4E70E532333640100CB6A5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D4E70E362333640000CB6A5A /* Project object */;
@@ -56,6 +80,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D49976F22333B96600DBD8B3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D49976EB2333B96600DBD8B3 /* StressScanSiri.appex in Embed App Extensions */,
+				D49976E82333B96600DBD8B3 /* StressScanSiriUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4E70E892333640300CB6A5A /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,6 +117,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D48F08542333A8FF00ECB493 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		D49976D32333B96500DBD8B3 /* StressScanSiri.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StressScanSiri.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49976D52333B96500DBD8B3 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		D49976D72333B96500DBD8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49976DC2333B96500DBD8B3 /* StressScanSiriUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StressScanSiriUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49976DD2333B96600DBD8B3 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		D49976E02333B96600DBD8B3 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		D49976E32333B96600DBD8B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D49976E52333B96600DBD8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E70E3E2333640000CB6A5A /* Stress Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stress Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E70E412333640000CB6A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4E70E432333640000CB6A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,13 +150,33 @@
 		D4E70E802333640300CB6A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4E70E822333640300CB6A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E70E832333640300CB6A5A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D4E70E972333642E00CB6A5A /* Stress Scanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Stress Scanner.entitlements"; sourceTree = "<group>"; };
+		D4E70E9B2333643400CB6A5A /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		D4E70E9E23336F6800CB6A5A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D4E70EA123337E4C00CB6A5A /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D49976D02333B96500DBD8B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49976D92333B96500DBD8B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49976DE2333B96600DBD8B3 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4E70E3B2333640000CB6A5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E70E9C2333643400CB6A5A /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +204,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D49976D42333B96500DBD8B3 /* StressScanSiri */ = {
+			isa = PBXGroup;
+			children = (
+				D49976D52333B96500DBD8B3 /* IntentHandler.swift */,
+				D49976D72333B96500DBD8B3 /* Info.plist */,
+			);
+			path = StressScanSiri;
+			sourceTree = "<group>";
+		};
+		D49976DF2333B96600DBD8B3 /* StressScanSiriUI */ = {
+			isa = PBXGroup;
+			children = (
+				D49976E02333B96600DBD8B3 /* IntentViewController.swift */,
+				D49976E22333B96600DBD8B3 /* MainInterface.storyboard */,
+				D49976E52333B96600DBD8B3 /* Info.plist */,
+			);
+			path = StressScanSiriUI;
+			sourceTree = "<group>";
+		};
 		D4E70E352333640000CB6A5A = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +231,10 @@
 				D4E70E602333640100CB6A5A /* Stress ScannerUITests */,
 				D4E70E6A2333640100CB6A5A /* Stress Scanner WatchKit App */,
 				D4E70E792333640200CB6A5A /* Stress Scanner WatchKit Extension */,
+				D49976D42333B96500DBD8B3 /* StressScanSiri */,
+				D49976DF2333B96600DBD8B3 /* StressScanSiriUI */,
 				D4E70E3F2333640000CB6A5A /* Products */,
+				D4E70E982333642F00CB6A5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +246,8 @@
 				D4E70E5D2333640100CB6A5A /* Stress ScannerUITests.xctest */,
 				D4E70E662333640100CB6A5A /* Stress Scanner WatchKit App.app */,
 				D4E70E752333640200CB6A5A /* Stress Scanner WatchKit Extension.appex */,
+				D49976D32333B96500DBD8B3 /* StressScanSiri.appex */,
+				D49976DC2333B96500DBD8B3 /* StressScanSiriUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,8 +255,10 @@
 		D4E70E402333640000CB6A5A /* Stress Scanner */ = {
 			isa = PBXGroup;
 			children = (
+				D4E70EA023337E2900CB6A5A /* Controllers */,
+				D4E70E9D23336F3400CB6A5A /* Style */,
+				D4E70E972333642E00CB6A5A /* Stress Scanner.entitlements */,
 				D4E70E412333640000CB6A5A /* AppDelegate.swift */,
-				D4E70E432333640000CB6A5A /* ViewController.swift */,
 				D4E70E452333640000CB6A5A /* Main.storyboard */,
 				D4E70E482333640100CB6A5A /* Assets.xcassets */,
 				D4E70E4A2333640100CB6A5A /* LaunchScreen.storyboard */,
@@ -217,9 +308,70 @@
 			path = "Stress Scanner WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		D4E70E982333642F00CB6A5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4E70E9B2333643400CB6A5A /* HealthKit.framework */,
+				D49976DD2333B96600DBD8B3 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4E70E9D23336F3400CB6A5A /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				D4E70E9E23336F6800CB6A5A /* CustomButton.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		D4E70EA023337E2900CB6A5A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4E70E432333640000CB6A5A /* ViewController.swift */,
+				D4E70EA123337E4C00CB6A5A /* LogViewController.swift */,
+				D48F08542333A8FF00ECB493 /* AuthenticationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D49976D22333B96500DBD8B3 /* StressScanSiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49976EF2333B96600DBD8B3 /* Build configuration list for PBXNativeTarget "StressScanSiri" */;
+			buildPhases = (
+				D49976CF2333B96500DBD8B3 /* Sources */,
+				D49976D02333B96500DBD8B3 /* Frameworks */,
+				D49976D12333B96500DBD8B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StressScanSiri;
+			productName = StressScanSiri;
+			productReference = D49976D32333B96500DBD8B3 /* StressScanSiri.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D49976DB2333B96500DBD8B3 /* StressScanSiriUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49976EC2333B96600DBD8B3 /* Build configuration list for PBXNativeTarget "StressScanSiriUI" */;
+			buildPhases = (
+				D49976D82333B96500DBD8B3 /* Sources */,
+				D49976D92333B96500DBD8B3 /* Frameworks */,
+				D49976DA2333B96500DBD8B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StressScanSiriUI;
+			productName = StressScanSiriUI;
+			productReference = D49976DC2333B96500DBD8B3 /* StressScanSiriUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D4E70E3D2333640000CB6A5A /* Stress Scanner */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4E70E8E2333640300CB6A5A /* Build configuration list for PBXNativeTarget "Stress Scanner" */;
@@ -228,11 +380,14 @@
 				D4E70E3B2333640000CB6A5A /* Frameworks */,
 				D4E70E3C2333640000CB6A5A /* Resources */,
 				D4E70E8D2333640300CB6A5A /* Embed Watch Content */,
+				D49976F22333B96600DBD8B3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				D4E70E692333640100CB6A5A /* PBXTargetDependency */,
+				D49976E72333B96600DBD8B3 /* PBXTargetDependency */,
+				D49976EA2333B96600DBD8B3 /* PBXTargetDependency */,
 			);
 			name = "Stress Scanner";
 			productName = "Stress Scanner";
@@ -319,8 +474,22 @@
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Fauzan Achmad";
 				TargetAttributes = {
+					D49976D22333B96500DBD8B3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D49976DB2333B96500DBD8B3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
 					D4E70E3D2333640000CB6A5A = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 					D4E70E512333640100CB6A5A = {
 						CreatedOnToolsVersion = 10.3;
@@ -356,11 +525,28 @@
 				D4E70E5C2333640100CB6A5A /* Stress ScannerUITests */,
 				D4E70E652333640100CB6A5A /* Stress Scanner WatchKit App */,
 				D4E70E742333640200CB6A5A /* Stress Scanner WatchKit Extension */,
+				D49976D22333B96500DBD8B3 /* StressScanSiri */,
+				D49976DB2333B96500DBD8B3 /* StressScanSiriUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D49976D12333B96500DBD8B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49976DA2333B96500DBD8B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49976E42333B96600DBD8B3 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4E70E3C2333640000CB6A5A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,12 +591,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D49976CF2333B96500DBD8B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49976D62333B96500DBD8B3 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49976D82333B96500DBD8B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49976E12333B96600DBD8B3 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4E70E3A2333640000CB6A5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D4E70E442333640000CB6A5A /* ViewController.swift in Sources */,
 				D4E70E422333640000CB6A5A /* AppDelegate.swift in Sources */,
+				D48F08552333A8FF00ECB493 /* AuthenticationViewController.swift in Sources */,
+				D4E70E9F23336F6800CB6A5A /* CustomButton.swift in Sources */,
+				D4E70EA223337E4C00CB6A5A /* LogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +648,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D49976E72333B96600DBD8B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49976DB2333B96500DBD8B3 /* StressScanSiriUI */;
+			targetProxy = D49976E62333B96600DBD8B3 /* PBXContainerItemProxy */;
+		};
+		D49976EA2333B96600DBD8B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49976D22333B96500DBD8B3 /* StressScanSiri */;
+			targetProxy = D49976E92333B96600DBD8B3 /* PBXContainerItemProxy */;
+		};
 		D4E70E542333640100CB6A5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D4E70E3D2333640000CB6A5A /* Stress Scanner */;
@@ -466,6 +681,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D49976E22333B96600DBD8B3 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49976E32333B96600DBD8B3 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		D4E70E452333640000CB6A5A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -493,6 +716,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D49976ED2333B96600DBD8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				INFOPLIST_FILE = StressScanSiriUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-Scanner.StressScanSiriUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D49976EE2333B96600DBD8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				INFOPLIST_FILE = StressScanSiriUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-Scanner.StressScanSiriUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D49976F02333B96600DBD8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				INFOPLIST_FILE = StressScanSiri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-Scanner.StressScanSiri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D49976F12333B96600DBD8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC5HFU96D3;
+				INFOPLIST_FILE = StressScanSiri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appledeveloperacademy.Stress-Scanner.StressScanSiri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D4E70E842333640300CB6A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -694,7 +993,9 @@
 		D4E70E8F2333640300CB6A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Stress Scanner/Stress Scanner.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BC5HFU96D3;
 				INFOPLIST_FILE = "Stress Scanner/Info.plist";
@@ -712,7 +1013,9 @@
 		D4E70E902333640300CB6A5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Stress Scanner/Stress Scanner.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BC5HFU96D3;
 				INFOPLIST_FILE = "Stress Scanner/Info.plist";
@@ -812,6 +1115,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D49976EC2333B96600DBD8B3 /* Build configuration list for PBXNativeTarget "StressScanSiriUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49976ED2333B96600DBD8B3 /* Debug */,
+				D49976EE2333B96600DBD8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49976EF2333B96600DBD8B3 /* Build configuration list for PBXNativeTarget "StressScanSiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49976F02333B96600DBD8B3 /* Debug */,
+				D49976F12333B96600DBD8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D4E70E392333640000CB6A5A /* Build configuration list for PBXProject "Stress Scanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

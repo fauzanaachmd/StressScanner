@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LogViewController.swift
 //  Stress Scanner
 //
 //  Created by Fauzan Achmad on 19/09/19.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class LogViewController : UIViewController
+{
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
-

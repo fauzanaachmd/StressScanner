@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSSiriUsageDescription</key>
+	<string>Workout information will be sent to Siri</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>This app will use your Face ID for authentication</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>This app will update your health data</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>This app will share your health data</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
