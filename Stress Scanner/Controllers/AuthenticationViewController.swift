@@ -50,7 +50,7 @@ class AuthenticationViewController : UIViewController
                 }
             } else {
                 // Could not evaluate policy; look at authError and present an appropriate message to user
-                
+                print("error biometric policy")
             }
         } else {
             // Fallback on earlier versions

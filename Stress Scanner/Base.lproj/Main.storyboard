@@ -61,9 +61,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VmI-lL-FUZ" customClass="CustomButton" customModule="Stress_Scanner" customModuleProvider="target">
                                 <rect key="frame" x="132" y="610" width="151" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Stress Scan">
+                                <state key="normal" title="Add To Log">
                                     <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="addToLogBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zlL-ty-LtB"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KvB-kA-X8Q">
                                 <rect key="frame" x="207" y="737" width="207" height="159"/>
@@ -128,13 +131,28 @@
                     <view key="view" contentMode="scaleToFill" id="BzG-b2-gnV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lYk-6S-VgZ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lYk-6S-VgZ" firstAttribute="top" secondItem="fUG-L9-aQq" secondAttribute="top" id="EWv-1N-CAt"/>
+                            <constraint firstItem="lYk-6S-VgZ" firstAttribute="trailing" secondItem="fUG-L9-aQq" secondAttribute="trailing" id="Ex9-gz-dKD"/>
+                            <constraint firstItem="lYk-6S-VgZ" firstAttribute="bottom" secondItem="fUG-L9-aQq" secondAttribute="bottom" id="GxO-52-aNL"/>
+                            <constraint firstItem="lYk-6S-VgZ" firstAttribute="leading" secondItem="fUG-L9-aQq" secondAttribute="leading" id="NyA-Ih-gfJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fUG-L9-aQq"/>
                     </view>
+                    <connections>
+                        <outlet property="stressLogTableView" destination="lYk-6S-VgZ" id="etc-iz-ZTj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="guE-wM-sY6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2736.231884057971" y="137.94642857142856"/>
+            <point key="canvasLocation" x="2734.7826086956525" y="137.94642857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VnC-Wc-xJj">

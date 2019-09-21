@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D44FA63A2334C57A0065CD7A /* StressScanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D44FA6382334C57A0065CD7A /* StressScanner.xcdatamodeld */; };
+		D468B48D233471C400651FCB /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D468B48C233471C400651FCB /* HealthKit.framework */; };
 		D48F08552333A8FF00ECB493 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F08542333A8FF00ECB493 /* AuthenticationViewController.swift */; };
 		D49976D62333B96500DBD8B3 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49976D52333B96500DBD8B3 /* IntentHandler.swift */; };
 		D49976DE2333B96600DBD8B3 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49976DD2333B96600DBD8B3 /* IntentsUI.framework */; };
@@ -14,6 +16,9 @@
 		D49976E42333B96600DBD8B3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49976E22333B96600DBD8B3 /* MainInterface.storyboard */; };
 		D49976E82333B96600DBD8B3 /* StressScanSiriUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D49976DC2333B96500DBD8B3 /* StressScanSiriUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D49976EB2333B96600DBD8B3 /* StressScanSiri.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D49976D32333B96500DBD8B3 /* StressScanSiri.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D4B0EA9A2334DCBD00849E03 /* StressLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0EA982334DCBD00849E03 /* StressLogTableViewCell.swift */; };
+		D4B0EA9B2334DCBD00849E03 /* StressLogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4B0EA992334DCBD00849E03 /* StressLogTableViewCell.xib */; };
+		D4C3A2D42334B7D000B55AD4 /* StressLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3A2D32334B7D000B55AD4 /* StressLog.swift */; };
 		D4E70E422333640000CB6A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E412333640000CB6A5A /* AppDelegate.swift */; };
 		D4E70E442333640000CB6A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E70E432333640000CB6A5A /* ViewController.swift */; };
 		D4E70E472333640000CB6A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E70E452333640000CB6A5A /* Main.storyboard */; };
@@ -117,6 +122,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D44FA6392334C57A0065CD7A /* StressScanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StressScanner.xcdatamodel; sourceTree = "<group>"; };
+		D468B48B233471B800651FCB /* Stress Scanner WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Stress Scanner WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		D468B48C233471C400651FCB /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		D48F08542333A8FF00ECB493 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		D49976D32333B96500DBD8B3 /* StressScanSiri.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StressScanSiri.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49976D52333B96500DBD8B3 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
@@ -126,6 +134,9 @@
 		D49976E02333B96600DBD8B3 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		D49976E32333B96600DBD8B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		D49976E52333B96600DBD8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B0EA982334DCBD00849E03 /* StressLogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressLogTableViewCell.swift; sourceTree = "<group>"; };
+		D4B0EA992334DCBD00849E03 /* StressLogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StressLogTableViewCell.xib; sourceTree = "<group>"; };
+		D4C3A2D32334B7D000B55AD4 /* StressLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressLog.swift; sourceTree = "<group>"; };
 		D4E70E3E2333640000CB6A5A /* Stress Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stress Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E70E412333640000CB6A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4E70E432333640000CB6A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -198,6 +209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D468B48D233471C400651FCB /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +233,23 @@
 				D49976E52333B96600DBD8B3 /* Info.plist */,
 			);
 			path = StressScanSiriUI;
+			sourceTree = "<group>";
+		};
+		D4B0EA952334CD1E00849E03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4B0EA982334DCBD00849E03 /* StressLogTableViewCell.swift */,
+				D4B0EA992334DCBD00849E03 /* StressLogTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4C3A2D22334B7BC00B55AD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4C3A2D32334B7D000B55AD4 /* StressLog.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D4E70E352333640000CB6A5A = {
@@ -255,6 +284,8 @@
 		D4E70E402333640000CB6A5A /* Stress Scanner */ = {
 			isa = PBXGroup;
 			children = (
+				D4B0EA952334CD1E00849E03 /* View */,
+				D4C3A2D22334B7BC00B55AD4 /* Model */,
 				D4E70EA023337E2900CB6A5A /* Controllers */,
 				D4E70E9D23336F3400CB6A5A /* Style */,
 				D4E70E972333642E00CB6A5A /* Stress Scanner.entitlements */,
@@ -263,6 +294,7 @@
 				D4E70E482333640100CB6A5A /* Assets.xcassets */,
 				D4E70E4A2333640100CB6A5A /* LaunchScreen.storyboard */,
 				D4E70E4D2333640100CB6A5A /* Info.plist */,
+				D44FA6382334C57A0065CD7A /* StressScanner.xcdatamodeld */,
 			);
 			path = "Stress Scanner";
 			sourceTree = "<group>";
@@ -298,6 +330,7 @@
 		D4E70E792333640200CB6A5A /* Stress Scanner WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D468B48B233471B800651FCB /* Stress Scanner WatchKit Extension.entitlements */,
 				D4E70E7A2333640200CB6A5A /* InterfaceController.swift */,
 				D4E70E7C2333640200CB6A5A /* ExtensionDelegate.swift */,
 				D4E70E7E2333640200CB6A5A /* NotificationController.swift */,
@@ -311,6 +344,7 @@
 		D4E70E982333642F00CB6A5A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D468B48C233471C400651FCB /* HealthKit.framework */,
 				D4E70E9B2333643400CB6A5A /* HealthKit.framework */,
 				D49976DD2333B96600DBD8B3 /* IntentsUI.framework */,
 			);
@@ -504,6 +538,14 @@
 					};
 					D4E70E742333640200CB6A5A = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -551,6 +593,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B0EA9B2334DCBD00849E03 /* StressLogTableViewCell.xib in Resources */,
 				D4E70E4C2333640100CB6A5A /* LaunchScreen.storyboard in Resources */,
 				D4E70E492333640100CB6A5A /* Assets.xcassets in Resources */,
 				D4E70E472333640000CB6A5A /* Main.storyboard in Resources */,
@@ -611,10 +654,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B0EA9A2334DCBD00849E03 /* StressLogTableViewCell.swift in Sources */,
 				D4E70E442333640000CB6A5A /* ViewController.swift in Sources */,
 				D4E70E422333640000CB6A5A /* AppDelegate.swift in Sources */,
 				D48F08552333A8FF00ECB493 /* AuthenticationViewController.swift in Sources */,
 				D4E70E9F23336F6800CB6A5A /* CustomButton.swift in Sources */,
+				D44FA63A2334C57A0065CD7A /* StressScanner.xcdatamodeld in Sources */,
+				D4C3A2D42334B7D000B55AD4 /* StressLog.swift in Sources */,
 				D4E70EA223337E4C00CB6A5A /* LogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -912,6 +958,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Stress Scanner WatchKit Extension/Stress Scanner WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BC5HFU96D3;
 				INFOPLIST_FILE = "Stress Scanner WatchKit Extension/Info.plist";
@@ -934,6 +981,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Stress Scanner WatchKit Extension/Stress Scanner WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BC5HFU96D3;
 				INFOPLIST_FILE = "Stress Scanner WatchKit Extension/Info.plist";
@@ -1188,6 +1236,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D44FA6382334C57A0065CD7A /* StressScanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D44FA6392334C57A0065CD7A /* StressScanner.xcdatamodel */,
+			);
+			currentVersion = D44FA6392334C57A0065CD7A /* StressScanner.xcdatamodel */;
+			path = StressScanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D4E70E362333640000CB6A5A /* Project object */;
 }
